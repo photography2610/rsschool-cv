@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library</title>
+    <link rel= "stylesheet" href="style.css">
+    <script src="index.js"></script>
+     <script lang="JavaScript">
+    function changeImage(season) {
+  var imageElement = document.getElementById("button-image-" + season);
+  var newImageSrc = "img/Group.png"; 
+
+
+  switch (season) {
+    case "winter":
+      newImageSrc = "img/Group.png"; 
+      break;
+    case "spring":
+      newImageSrc = "img/Group.png"; 
+      break;
+    case "summer":
+      newImageSrc = "img/Group.png"; 
+      break;
+    case "autumn":
+      newImageSrc = "img/Group.png"; 
+      break;
+    default:
+      return;
+  }
+
+  imageElement.src = newImageSrc;
+}
+
+
+     </script>
+</head>
+<body>
+  
+   <header>
+      <div class="wwerch">
+        <div class="zagolowok">
+            <h1>Brooklyn Public Library</h1> 
+        </div>   
+        <div class="knopki">
+           <h3>About</h3>
+           <h3>Favorites</h3>
+           <h3>Cofee shop</h3>
+           <h3>Contacts</h3>
+           <h3>Library Card</h3>
+           <img src="img/icon_profile.png" alt="">
+        </div>
+      </div>
+      <div class="welcome">
+         <img  src="img/Welcome.png" alt="">
+      </div>
+   </header>
+   <main>
+     <div class="about" style="text-align: center;">
+       <h2>About</h2>
+        <hr style="width: 50px; height: 1px; background-color: black;">
+        <h4>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </h4>
+      </div>
+      <div class="pect">
+           <img src="img/image 1.png" alt="">
+           <img src="img/image 2.png" alt="">
+           <img src="img/image 3.png" alt="">
+      </div>
+      <div class="butt" style="text-align: center;">
+         <hr style="width: 16px; height: 16px; border-radius: 50px; background-color: #BB945F; display: inline-block;">
+         <hr style="width: 16px; height: 16px; border-radius: 50px; background-color: #0C0C0E; display: inline-block;">
+         <hr style="width: 16px; height: 16px; border-radius: 50px; background-color: #0C0C0E; display: inline-block;">
+      </div>
+      <div class="Favorut" style="text-align: center;">
+         <h2>Favorites</h2>
+          <hr style="width: 50px; height: 1px; background-color: black;">
+      </div>
+      <div class="weatg">
+         <h4>Pick favorites of season</h4>
+      </div>
+      <div class="knap" style="display: flex;">
+         <div class="er">
+            <button class="custom-button" onclick="changeImage('winter')">
+              <img id="button-image-winter" src="img/Ellipse 2.png" alt="">
+            </button>
+            <h4>Winter</h4>
+          </div>
+          
+          <div class="er">
+            <button class="custom-button" onclick="changeImage('spring')">
+              <img id="button-image-spring" src="img/Ellipse 2.png" alt="">
+            </button>
+            <h4>Spring</h4>
+          </div>
+          
+          <div class="er">
+            <button class="custom-button" onclick="changeImage('summer')">
+              <img id="button-image-summer" src="img/Ellipse 2.png" alt="">
+            </button>
+            <h4>Summer</h4>
+          </div>
+          
+          <div class="er">
+            <button class="custom-button" onclick="changeImage('autumn')">
+              <img id="button-image-autumn" src="img/Ellipse 2.png" alt="">
+            </button>
+            <h4>Autumn</h4>
+          </div>
+          
+      </div>     
+            <div class="favoritems" style="display: flex; padding-bottom: 30px;" >
+                 <div class="firstbook">
+                   <h5>Staff Picks</h5>
+                   <hr style="width: 60px; background-color: #BB945F; height: 1px; margin-left: 8px;">
+                   <h6>The Book Eaters<br>
+                     By Sunyi Dean</h6>
+                     <p>An unusual sci-fi story about a book<br>
+                         eater woman who tries desperately to<br>
+                          save her dangerous mind-eater son <br>
+                          from tradition and certain death.<br> 
+                        Complete with dysfunctional family<br>
+                         values, light Sapphic romance, and a<br>
+                          strong, complex protagonist. Not for<br>
+                           the faint of heart.</p>
+                    <div class="buy"><p>Buy</p></div>
+                  </div>
+                  <div class="secondbook">
+                     <h5>Staff Picks</h5>
+                     <hr style="width: 60px; background-color: #BB945F; height: 1px; margin-left: 8px;">
+                     <h6>Cackle<br>
+                      By Rachel Harrison</h6>
+                       <p>Are your Halloween movies of choice<br>
+                         The Witches of Eastwick and Practical<br>
+                          Magic? Look no further than here<br>
+                           - where a woman recovering from a<br>
+                            breakup moves to a quaint town in<br>
+                             upstate New York and befriends a <br>
+                             beautiful witch.</p>
+                      <div class="buy2"><p>Buy</p></div>
+  
+                   </div>
+            </div>
+            <div class="favoritems" style="display: flex;">
+              <div class="firstbook">
+                <h5>Staff Picks</h5>
+                <hr style="width: 60px; background-color: #BB945F; height: 1px; margin-left: 8px;">
+                <h6>Dante: Poet of the Secular World<br>
+                  By Erich Auerbach</h6>
+                  <p>Auerbach's engaging book places the<br>
+                     'Comedy' within the tradition of epic,<br>
+                      tragedy, and philosophy in general,<br>
+                       arguing for Dante's uniqueness as one<br>
+                        who raised the individual and his<br>
+                         drama of soul into something of<br>
+                          divine significance—an inspired<br>
+                           introduction to Dante's main themes.</p>
+                 <div class="buy"><p>Buy</p></div>
+              </div>
+               <div class="secondbook">
+                  <h5>Staff Picks</h5>
+                  <hr style="width: 60px; background-color: #BB945F; height: 1px; margin-left: 8px;">
+                  <h6>The Last Queen<br>
+                    By Clive Irving</h6>
+                    <p>A timely and revelatory new<br>
+                       biography of Queen Elizabeth (and her<br>
+                        family) exploring how the Windsors<br>
+                         have evolved and thrived as the<br>
+                          modern world has changed around them.</p>
+                   <div class="own"><p>Own</p></div>
+                   <img src="img/book.png" style="position: absolute; top: 2135px; left: 380px; width: 200px; height: 300px;" alt="">
+                   <img src="img/ggg.png" style="position: absolute; top: 2135px; left: 1280px; width: 200px; height: 300px;" alt="">
+                   <img src="img/rtrt.png" style="position: absolute; top: 2822px; left: 380px; width: 200px; height: 300px;" alt="">
+                   <img src="img/quen.png" style="position: absolute; top: 2822px; left: 1280px; width: 200px; height: 300px;" alt="">
+
+    </main>
+    <table>
+       <div class="cofee">
+         <h2>Cofee Shop</h2>
+         <hr style="width: 50px; height: 1px; background-color: #0C0C0E;">
+         <p>In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation.<br>
+          You can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts<br> from bakery.</p>
+       </div>
+      <div class="menu" style="display: flex;">
+          <div class="tea" style="margin-left: 10px;">
+            <h2>Coffee & Tea </h2>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0; width: 250px;">Cold Brew Coffees</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$3</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0; width: 250px;">French Press Pot</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$5</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Espresso</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0 30px; ">$2</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Cappuccino</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$4</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Hot Tea</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$2</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Cold Tea</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$2</p>
+            </div>
+            
+            
+           </div>
+           <div class="tea" style="margin-left: 400px; text-align: right;">
+            <h2>Desserts & Cakes   </h2>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0; width: 250px;">Forest Gateau</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$16</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0; width: 250px;">Blue Moon</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$16</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Truffle Cake</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0 30px; ">$15</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Chocolate Cake</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$18</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Poet’s Dream Cake</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$16</p>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 30px;">
+              <h4 style="margin: 0;width: 250px;">Pineapple Cake</h4>
+              <hr style="width: 100px; height: 1px; background-color: #BB945F; margin: 0 50px;">
+              <p style="margin: 0; margin-left: 30px;">$14</p>
+            </div>
+          
+          </div>
+      
+    </table>
+      <cont>
+       <div class="cont">
+         <h2>Our Contact</h2>
+         <hr style="width: 50px; height: 1px; background-color: #0C0C0E; text-align: center;">
+         <div class="cont-inf" style="display: flex; margin-top: 50px;">
+            <div class="cont-text">
+             <h5>For all Library inquiries:</h5>  
+             <p>Please call (617) 730-2370</p><p>For TTY service, please call (617) 730-2370</p><p>Putterham Library: (617) 730-2385</p>
+             <h5>Senior Staff</h5>
+             <p>Library Director:Amanda Hirst</p>
+            </div>
+            <img src="img/Rectangle 4.png" style="margin-left: 300px;" alt="">
+         </div>
+        </div>
+      </cont>
+      <div class="cards">
+       <h2>Digital Library Cards</h2>
+       <hr style="width: 50px; height: 1px; background-color: #0C0C0E; text-align: center;">
+       <div class="stroke" style="display: flex;">
+        <div><h4>Find your Library card</h4>
+        <img src="img/card-body.png" alt="">
+        </div>
+        <div class="fdfd" style="margin-left: 400px;"> 
+           <h4 style="margin-left: 150px; width: 300px;">Get a reader card</h4>
+           <P>You will be able to see a reader card after<br> logging into account or you can register a new<br> account</P>
+           <div class="bot" style="display: flex;">
+            <div class="sign"><h6>Sign Up</h6></div>
+            <div class="out" style="margin-left: 10px;" ><h6>Log In</h6></div>
+           </div>
+        </div>
+       </div>
+      <footer style="background-color: #0C0C0E; width: 100%; height: 300px;">
+        <div>
+          <div class="eror" style="display: flex;">
+            <p style="margin-left: 20px;">286 Cadman Plaza, New York,<br> NY 11238, United States</p>
+            <p style="margin-left: 1020px;">Mon - Fri <br>08:00 am - 07:00 pm</p>
+          </div>
+          <div class="eror" style="display: flex;">
+            <img src="img/Social media.png" style="width: 100px; height: 30px; margin-left: 20px;" alt="">
+            <p style="margin-left: 1100px;">Sat - Sun<br>10:00 am - 06:00 pm</p>
+          </div>
+        </div>
+        <hr style="width: 1400px; height: 1px; background-color: white;">
+        <div class="end" style="display: flex;">
+          <p style="margin-left: 20px;">2023</p>
+          <p style="margin-left: 400px; width: 1000px;">The Rolling Scopes School</p>
+          <p style="margin-left: 650px;">Photography_sid</p>
+        </div>
+      </footer>
+      
+</body>
+</html>

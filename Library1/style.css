@@ -1,0 +1,398 @@
+body{
+    margin: 0px;
+    width: 1440px;
+}
+.wwerch{
+ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color:  #0C0C0E;
+    color: aliceblue;
+    height: 90px;
+    padding: 0 20px
+    
+}
+.wwerch h1{
+    font-family: Forum;
+font-size: 30px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.zagolowok{
+    display: inline-block;
+}
+.knopki{
+    display: flex; 
+    align-items: center; 
+    text-align: right; 
+    padding-left: 15px;
+}
+.knopki h3{
+margin-left: 35px;
+width: Hug (584px)
+height: Hug (50px)
+top: 20pxs
+left: 768px
+gap: 30px
+
+}
+.knopki img{
+margin-left: 35px;
+}
+.welcome img{
+width: 100%;
+height: 600px;
+}
+.about h2{
+    font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+color: #0C0C0E;
+text-align: center;
+}
+.about h4{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    text-align: center;
+
+}
+.pect img{
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+}
+.Favorut h2{
+font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+
+}
+.weatg h4{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 20px;
+}
+.custom-button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    outline: none;
+  }
+  
+  
+  .custom-button:hover {
+    opacity: 0.8; 
+  }
+  .er {
+    display: flex;
+    padding-left: 25px;
+  }
+  .summ{
+    display: flex;
+    padding-left: 20px;
+  }
+  .er h4{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .favoritems{
+    margin-bottom: 4px;
+  }
+  .firstbook {
+    width: 500px;
+    height: 650px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  .firstbook h5{
+    font-family: Forum;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+margin-left: 8px;
+  }
+  .firstbook h6{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+margin-left: 8px;
+  }
+  .firstbook p{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: 8px;
+  }
+  .buy{
+    width: 75px;
+height: 30px;
+border-radius: 2px;
+border: 1px solid black;
+margin-left: 8px;
+  }
+  .buy p{
+    font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: center;
+
+  }
+  .secondbook {
+    width: 500px;
+    height: 650px;
+    border: 1px solid black;
+    text-align: right;
+    margin-left: 450px;
+  }
+  .secondbook h5{
+    font-family: Forum;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+margin-left: 8px;
+  }
+  .secondbook h6{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+margin-left: 8px;
+  }
+  .secondbook p{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: 8px;
+  }
+  .buy2{
+    width: 75px;
+height: 30px;
+border-radius: 2px;
+border: 1px solid black;
+margin-left: 8px;
+  }
+  .buy2 p{
+    font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: center;
+
+  }
+.own{
+  width: 75px;
+height: 30px;
+border-radius: 2px;
+border: 1px solid #BB945F;
+margin-left: 8px; 
+margin-top: 130px;
+}
+.own p{
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #BB945F;  
+}
+.cofee h2{
+  font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+
+}
+.cofee p{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+}
+.tea h2{
+  font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+color: #BB945F;
+}
+.tea h4{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: left;
+   
+}
+.tea p{
+  font-family: Forum;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: left;
+}
+.cont h2{
+  font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+color: #0C0C0E;
+}
+.cont-text h5{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  width: 300px;
+}
+.cont-text p{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+width: 500px;
+}
+.cards h2{
+  font-family: Forum;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 2px;
+text-align: center;
+color: #0C0C0E;
+}
+.stroke h4{
+  font-family: Inter;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.fdfd h4{
+  font-family: Forum;
+font-size: 30px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+.fdfd p{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: right;
+width: 400px;
+}
+.sign{
+  width:75px;
+height:30px;
+padding: 10px 0px 10px 0px;
+border-radius: 2px;
+border: 1px solid #0C0C0E ;
+margin-left: 240px;
+}
+.sign h6{
+  font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: center;
+
+}
+.out{
+  width:75px;
+height:30px;
+padding: 10px 0px 10px 0px;
+border-radius: 2px;
+border: 1px solid #0C0C0E ;
+margin-left: 240px;
+}
+.out h6{
+  font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 1px;
+text-align: center;
+
+}
+.eror p{
+  font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color: white;
+}
+.end p{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+color: white;
+}
+
+  
+  
